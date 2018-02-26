@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="js/2048.js"></script>
+    <link rel="stylesheet" href="style/css/2048.css">
+    <link rel="shortcut icon" href="images/title.jpg" type="image/x-icon">
+    <title>2048 Game</title>
+</head>
+
+<body>
+    <header>
+        <h1>2048</h1>
+        <a href="javascript:;" id="newGameBtn" onclick="newGame()">New Game</a>
+        <p class="score">score:
+            <span id="score">0</span>
+        </p>
+        <p class="step">step:
+            <span id="step">0</span>
+        </p>
+        <p class="top">Top Score:
+            <span id="top">0</span>
+        </p>
+        <a href="javascript:;" id="back" onclick="back()">back</a>
+        <span class="Join">
+            <strong> Play 2048 Game Online</strong>
+            <br>Join the numbers and get to the 2048 tile!</span>
+    </header>
+
+    <div id="content"></div>
+    <div id="over">
+        <p>Game Over !</p>
+        <a href="javascript:;" class="restartBtn" onclick="newGame()">restart</a>
+    </div>
+</body>
+
+</html>
